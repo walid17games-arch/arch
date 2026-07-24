@@ -1,6 +1,6 @@
 .container{
     width: 78%;
-    max-width: 900px;
+    max-width: 500px;
     margin: 22px auto;
 }
 
@@ -14,19 +14,19 @@ section{
 
 section h2{
     color:#ff6b2c;
-    font-size:20px;
+    font-size:50px;
     margin-bottom:18px;
 }
 
 .card{
     background:#eef4ff;
-    border-radius:10px;
+    border-radius:14px;
     padding:14px 18px;
     margin-top:10px;
 }
 
 .card h3{
-    font-size:18px;
+    font-size:24px;
     margin:0;
     color:#000;
 }
@@ -42,7 +42,7 @@ nav{
 }
 
 nav a{
-    color:white;
+    color:rgb(1, 10, 63);
     text-decoration:none;
     padding:8px 14px;
     border-radius:6px;
@@ -101,7 +101,7 @@ nav{
 
 nav a{
     display: inline-block;
-    color: white;
+    color: rgb(237, 236, 241);
     text-decoration: none;
     padding: 10px 18px;
     border-radius: 8px;
@@ -124,4 +124,40 @@ nav a{
 
 nav a:hover{
     z-index: 10;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Tahoma,sans-serif;
+    background:#fbfbfc;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style:none;
+    gap:15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
+footer{
+    background:#0b005d;
+    color:rgb(250, 251, 255);
+    text-align:center;
+    padding:20px 0;
+    margin-top:22px;
 }
