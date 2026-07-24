@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>مرحبًا، أنا وليد</h1>
+    <p>مطور مواقع والعاب وطالب شغوف بالتقنية</p>
+</header>
+
+<nav>
+    <a href="#about">من أنا</a>
+    <a href="#skills">المهارات</a>
+    <a href="#projects">المشاريع</a>
+    <a href="#contact">تواصل معي</a>
+    <a href="#social midia links">روابطي على مواقع التواصل الاجتماعي</a>
+</nav>
+
+<section id="about" class="box">
+    <h2>من أنا</h2>
+    <p>
+        مرحبًا، أنا وليد. أهتم بتطوير مواقع الويب وتصميم واجهات المستخدم，
+        وأسعى إلى تعلم أحدث التقنيات وبناء مشاريع احترافية.
+    </p>
+</section>
+
+<section id="skills" class="box">
+    <h2>مهاراتي</h2>
+    <ul>
+        <li>HTML  3.5/5</li>
+        <li>CSS  4/5</li>
+        <li>JavaScript  1/5</li>
+        <li>User interface design 3/5</li>
+    </ul>
+</section>
+
+<section id="projects" class="box">
+    <h2>مشاريعي</h2>
+
+    <div class="card">
+        <h3>موقعي شخصي</h3>
+        <p>  موقع للتعريف بي وأعمالي (المستقبلية)</p>
+    </div>
+
+</section>
+
+<section id="contact" class="box">
+    <h2>تواصل معي</h2>
+    <p>📧 البريد الإلكتروني:walid17games@gmail.com</p>
+</section>
+<section id="social-media-links" class="box">
+    <h2>روابطي على مواقع التواصل الاجتماعي</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/walid17games">انستغرام</a></li>
+        <li><a href="https://www.youtube.com/in/walid17games">يوتيوب</a></li>
+        <li><a href="https://www.facebook.com/walid17games">فيسبوك</a></li>
+    </ul>
+</section>
+<footer>
+    <p>                     © 2026 وليد
+        2012 \ 12 \ 31 
+                                            مرحبا بكم في موقعي الشخصي. شكرا لزيارتكم!
+    </p>
+</footer>
+<script>
+const links = document.querySelectorAll("nav a");
+
+links.forEach(link => {
+    link.addEventListener("click", function () {
+        links.forEach(l => l.classList.remove("active"));
+        this.classList.add("active");
+    });
+});
+</script>
+</body>
+</html>
