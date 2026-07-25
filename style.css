@@ -161,3 +161,21 @@ footer{
     padding:20px 0;
     margin-top:22px;
 }
+.rating{
+    font-weight:bold;
+    color:#0000ff;
+}
+.nav a.active{
+    background:#0026ff;
+}
+a{
+    text-decoration:none;
+    color:#0000ff;
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+a:hover{
+color:#000000;
+    transform: scale(1.2);
+}
+
