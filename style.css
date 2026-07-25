@@ -13,7 +13,7 @@ section{
 }
 
 section h2{
-    color:#ff6b2c;
+    color:#000084;
     font-size:50px;
     margin-bottom:18px;
 }
@@ -37,7 +37,7 @@ section h2{
     color:#333;
 }
 nav{
-    background:#ff5757;
+    background:#6373ff;
     padding:8px 0;
 }
 
@@ -51,10 +51,10 @@ nav a{
 }
 
 nav a.active{
-    background:#ff1d1d;
+    background:#fcfafa;
 }
 header{
-    background:linear-gradient(90deg,#f8bcbc,#ff5a5a);
+    background:linear-gradient(90deg,#6373ff,#0800a7);
     color:white;
     text-align:center;
     padding:45px 20px;
@@ -80,18 +80,18 @@ nav a{
 
 /* عند مرور الماوس */
 nav a:hover{
-    background:#ff1f1f;
+    background:#eae5e5;
     transform: scale(1.15);
 }
 
 /* الزر النشط */
 nav a.active{
-    background:#ff1f1f;
+    background:#e8e6e6;
 }
 nav a:hover{
-    background:#ff1f1f;
+    background:#c5c1c1;
     transform: scale(1.15);
-    box-shadow:0 8px 20px rgba(255,0,0,.35);
+    box-shadow:0 10px 50px rgba(0, 0, 0, 0.35);
 }
 nav{
     display: flex;
@@ -110,12 +110,12 @@ nav a{
 }
 
 nav a:hover{
-    background: #ff1f1f;
+    background: #ffffff;
     transform: scale(1.15);
 }
 
 nav a.active{
-    background: #ff1f1f;
+    background: #f8f7f7;
 }
 nav a{
     position: relative;
